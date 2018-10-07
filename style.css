@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+#sideTitle {
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  position: fixed;
+  left: 0;
+  right: 90%;
+  margin-top: 0;
+  top: 55%;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  font-size: 4em;
+  letter-spacing: 0.15em;
+}
+
+nav {
+  height: 3.5em;
+  text-transform: uppercase;
+  border-bottom: solid 1px #ddd;
+}
+
+.nav-left {
+  display: relative;
+  position: fixed;
+  left: 70%;
+}
+
+.nav-right {
+  display: relative;
+  position: fixed;
+  right: 70%;
+}
+
+.mx-auto {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.mx-auto:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 0 1em !important;
+}
+
+#headerImg {
+  background: url('./images/HEADER.jpg');
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: cover;
+  padding: 400px 0;
+}
+
+.row > div {
+  height: 200px;
+}
+
+#img1 {
+  background-image: url('./images/p2img1.jpg');
+}
+
+#img2 {
+  background-image: url('./images/p2img2.jpg');
+}
+
+#img3 {
+  background-image: url('./images/p3img1.jpg');
+}
+
+#img4 {
+  background-image: url('./images/p3img2.jpg');
+}
+
+.r2,
+.r3 {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  padding: 300px 5em;
+  margin: 10px 10px;
+}
+
+.r4 {
+  display: block;
+  padding: 150px 5em;
+  margin: 10px 10px;
+}
+
+.form-div {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#mailingList {
+  background-color: white;
+  height: 200px;
+  text-align: center;
+}
+
+#emailInput {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ddd;
+  text-align: center;
+  padding: 9px 12px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.link-icons > a {
+  color: black;
+  font-size: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.main-footer {
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.main-footer a {
+  color: black;
+  text-transform: uppercase;
+}
+
+#about-text {
+  text-align: center;
+  max-width: 30%;
+  padding-left: 6em;
+}
+
+#img5 {
+  background-image: url('./images/img5.jpg');
+}
